@@ -10,6 +10,11 @@
 </head>
 
 <body class="">
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            Select image to upload:
+            <input type="file" name="fileToUpload" id="fileToUpload">
+            <input type="submit" value="Upload Image" name="submit">
+        </form>
     <div class="wrapper">
         <div class="graphics">
             <div class="tower">
@@ -43,11 +48,6 @@
 
             </div>
         </div>
-        <form action="/upload" method="post" enctype="multipart/form-data">
-            Select image to upload:
-            <input type="file" name="fileToUpload" id="fileToUpload">
-            <input type="submit" value="Upload Image" name="submit">
-        </form>
         <header>
             <nav class="website-nav">
                 <ul>
