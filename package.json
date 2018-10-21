@@ -15,6 +15,7 @@
     "test": "tests"
   },
   "dependencies": {
+    "express": "^4.16.4",
     "express-fileupload": "^1.0.0"
   },
   "repository": {
